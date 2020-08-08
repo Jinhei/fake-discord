@@ -13,7 +13,70 @@
   }
 }
 
-.App-header {
+body {
+  font-size: 100%;
+  background-color: #36393f;
+  color: white;
+  font-family: 'Open Sans', 'Helvetica Neue';
+}
+
+label {
+  margin-left: 8px;
+}
+
+.header-secondary, .text-secondary {
+  color: #b9bbbe;
+}
+
+.text-normal {
+  color: #dcddde;
+}
+
+.message {
+  display: flex;
+  flex-direction: row;
+}
+
+.avatar {
+  height: 40px;
+  width: 40px;
+  margin: 2px 16px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+div.avatar {
+  height: 1px !important;
+}
+
+.message-contents {
+  display: flex;
+  flex-direction: column;
+}
+
+.text-header, .message-text {
+  line-height: 1.375rem;
+  display: inline-block;
+}
+.text-header {
+  font-weight: 500;
+  line-height: 1.375rem;
+  margin-right: 8px;
+}
+
+.text-secondary {
+  font-size: 12px;
+}
+
+.message-header, .message-body {
+  text-align: left;
+}
+
+.with-margin {
+  margin-top: 17px;
+}
+
+/* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -26,7 +89,7 @@
 
 .App-link {
   color: #61dafb;
-}
+} */
 
 @keyframes App-logo-spin {
   from {
